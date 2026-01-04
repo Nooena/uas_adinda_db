@@ -1,0 +1,1207 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\xampp\mysql\bin
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 2567
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nTry the new cross-platform PowerShell https://aka.ms/pscore6\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 9
+    content: "\e[25l\e[6;1H\e]0;Administrator: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 321
+    content: 'PS C:\xampp\mysql\bin> '
+  - delay: 6146
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[91m\e[6;22H> \e[m.\e[?25h"
+  - delay: 987
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[6;22H> \e[93m.m\e[?25h"
+  - delay: 314
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;24H.my\e[?25h"
+  - delay: 2391
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;24H.m\e[m \b\e[?25h"
+  - delay: 212
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[91m\e[6;22H> \e[m. \b\e[?25h"
+  - delay: 1166
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[6;22H> \e[93m.\\\e[?25h"
+  - delay: 461
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;24H.\\m\e[?25h"
+  - delay: 1012
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;24H.\\my\e[?25h"
+  - delay: 241
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;24H.\\mys\e[?25h"
+  - delay: 310
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;24H.\\mysq\e[?25h"
+  - delay: 183
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;24H.\\mysql\e[?25h"
+  - delay: 1541
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[?25h"
+  - delay: 459
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-\e[?25h"
+  - delay: 470
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[?25h"
+  - delay: 346
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m \e[?25h"
+  - delay: 869
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m r\e[?25h"
+  - delay: 322
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m ro\e[?25h"
+  - delay: 137
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m roo\e[?25h"
+  - delay: 232
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m root\e[?25h"
+  - delay: 244
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m root \e[?25h"
+  - delay: 302
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m root \e[90m-\e[?25h"
+  - delay: 254
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;24H.\\mysql\e[m \e[90m-u\e[m root \e[90m-p\e[?25h"
+  - delay: 843
+    content: "\e[m\r\n"
+  - delay: 226
+    content: E
+  - delay: 18
+    content: 'nter password: '
+  - delay: 1704
+    content: "\r\n"
+  - delay: 54
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 14
+    content: "\r\nYour MariaDB connection id is 71\e[46X\r\nServer version: 10.4.32-MariaDB mariadb.org binary distribution\e[15X\r\n\e[78X\r\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[10X\r\n\e[78X\r\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\e[78X\r\nMariaDB [(none)]> \e[60X"
+  - delay: 4914
+    content: U
+  - delay: 214
+    content: S
+  - delay: 257
+    content: E
+  - delay: 604
+    content: ' '
+  - delay: 1546
+    content: s
+  - delay: 669
+    content: a
+  - delay: 229
+    content: u
+  - delay: 295
+    content: 'n'
+  - delay: 177
+    content: a
+  - delay: 1044
+    content: ':'
+  - delay: 1280
+    content: "\b \b"
+  - delay: 418
+    content: ;
+  - delay: 321
+    content: "\r\n"
+  - delay: 18
+    content: "Database changed \r\nMariaDB [sauna]> "
+  - delay: 4327
+    content: S
+  - delay: 1406
+    content: H
+  - delay: 253
+    content: O
+  - delay: 272
+    content: W
+  - delay: 362
+    content: ' '
+  - delay: 624
+    content: D
+  - delay: 142
+    content: A
+  - delay: 168
+    content: T
+  - delay: 155
+    content: A
+  - delay: 277
+    content: B
+  - delay: 388
+    content: A
+  - delay: 261
+    content: S
+  - delay: 284
+    content: E
+  - delay: 848
+    content: ' '
+  - delay: 912
+    content: s
+  - delay: 122
+    content: a
+  - delay: 206
+    content: u
+  - delay: 227
+    content: 'n'
+  - delay: 152
+    content: a
+  - delay: 1954
+    content: ;
+  - delay: 723
+    content: "\r\n"
+  - delay: 43
+    content: ERROR 1064 (42000)
+  - delay: 12
+    content: "\rERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\non for the right syntax to use near 'DATABASE sauna' at line 1\e[K\r\nMariaDB [sauna]> \e[K"
+  - delay: 64764
+    content: S
+  - delay: 332
+    content: H
+  - delay: 270
+    content: O
+  - delay: 243
+    content: W
+  - delay: 209
+    content: ' '
+  - delay: 679
+    content: C
+  - delay: 229
+    content: R
+  - delay: 229
+    content: E
+  - delay: 93
+    content: A
+  - delay: 188
+    content: T
+  - delay: 195
+    content: E
+  - delay: 325
+    content: ' '
+  - delay: 301
+    content: D
+  - delay: 141
+    content: A
+  - delay: 162
+    content: T
+  - delay: 116
+    content: A
+  - delay: 171
+    content: B
+  - delay: 96
+    content: A
+  - delay: 247
+    content: S
+  - delay: 237
+    content: E
+  - delay: 457
+    content: ' '
+  - delay: 765
+    content: s
+  - delay: 157
+    content: a
+  - delay: 191
+    content: u
+  - delay: 269
+    content: 'n'
+  - delay: 135
+    content: a
+  - delay: 5390
+    content: ;
+  - delay: 272
+    content: "\r\n"
+  - delay: 14
+    content: "+----------+----------------------------------------------------------------------------------------------+\r\n| Database | Create Database                                                                              |\r\n+----------+----------------------------------------------------------------------------------------------+\r\n| sauna    | CREATE DATABASE `sauna` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ |\r\n+----------+----------------------------------------------------------------------------------------------+\r\n1 row in set (0.001 sec)\e[83X\r\n\e[107X\r\nMariaDB [sauna]> \e[90X"
+  - delay: 7545
+    content: S
+  - delay: 346
+    content: H
+  - delay: 227
+    content: O
+  - delay: 252
+    content: W
+  - delay: 257
+    content: ' '
+  - delay: 539
+    content: T
+  - delay: 216
+    content: A
+  - delay: 146
+    content: B
+  - delay: 258
+    content: L
+  - delay: 221
+    content: E
+  - delay: 702
+    content: ' '
+  - delay: 536
+    content: s
+  - delay: 211
+    content: a
+  - delay: 171
+    content: u
+  - delay: 217
+    content: 'n'
+  - delay: 141
+    content: a
+  - delay: 298
+    content: ;
+  - delay: 266
+    content: "\r\n"
+  - delay: 32
+    content: "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\b\r\non for the right syntax to use near 'sauna' at line 1\r"
+  - delay: 11
+    content: "\nMariaDB [sauna]>\e[1C"
+  - delay: 13976
+    content: S
+  - delay: 252
+    content: E
+  - delay: 363
+    content: L
+  - delay: 351
+    content: E
+  - delay: 171
+    content: C
+  - delay: 247
+    content: T
+  - delay: 391
+    content: ' '
+  - delay: 1482
+    content: '8'
+  - delay: 590
+    content: ' '
+  - delay: 526
+    content: "\b \b"
+  - delay: 327
+    content: "\b \b"
+  - delay: 1303
+    content: '*'
+  - delay: 932
+    content: ' '
+  - delay: 694
+    content: F
+  - delay: 273
+    content: R
+  - delay: 196
+    content: O
+  - delay: 272
+    content: M
+  - delay: 368
+    content: ' '
+  - delay: 18613
+    content: p
+  - delay: 222
+    content: e
+  - delay: 181
+    content: 'n'
+  - delay: 247
+    content: g
+  - delay: 247
+    content: u
+  - delay: 258
+    content: 'n'
+  - delay: 219
+    content: j
+  - delay: 157
+    content: u
+  - delay: 227
+    content: 'n'
+  - delay: 222
+    content: g
+  - delay: 1181
+    content: ;
+  - delay: 276
+    content: "\r\n"
+  - delay: 31
+    content: "ERROR 1146 (42S02): Table 'sauna.pengunjung' doesn't exist\r"
+  - delay: 8
+    content: "\nMariaDB [sauna]>\e[1C"
+  - delay: 17328
+    content: S
+  - delay: 293
+    content: E
+  - delay: 496
+    content: L
+  - delay: 119
+    content: E
+  - delay: 1343
+    content: "\b \b"
+  - delay: 195
+    content: "\b \b"
+  - delay: 377
+    content: "\b \b"
+  - delay: 464
+    content: H
+  - delay: 251
+    content: O
+  - delay: 99
+    content: W
+  - delay: 742
+    content: T
+  - delay: 100
+    content: A
+  - delay: 141
+    content: B
+  - delay: 289
+    content: L
+  - delay: 381
+    content: "\b \b"
+  - delay: 155
+    content: "\b \b"
+  - delay: 127
+    content: "\b \b"
+  - delay: 623
+    content: "\b \b"
+  - delay: 1335
+    content: T
+  - delay: 101
+    content: A
+  - delay: 161
+    content: B
+  - delay: 569
+    content: "\b \b"
+  - delay: 163
+    content: "\b \b"
+  - delay: 125
+    content: "\b \b"
+  - delay: 707
+    content: ' '
+  - delay: 855
+    content: T
+  - delay: 212
+    content: S
+  - delay: 133
+    content: B
+  - delay: 456
+    content: "\b \b"
+  - delay: 131
+    content: "\b \b"
+  - delay: 1055
+    content: A
+  - delay: 172
+    content: B
+  - delay: 863
+    content: L
+  - delay: 183
+    content: E
+  - delay: 245
+    content: S
+  - delay: 543
+    content: ;
+  - delay: 194
+    content: "\r\n+-----------------+\r\n| Tables_in_sauna |\r\n+-----------------+\r\n| jenis_sauna     |\r\n| pelanggan       |\r\n+-----------------+\r\n2 rows in set (0.002 sec)\r\n"
+  - delay: 20
+    content: "\nMariaDB [sauna]>\e[1C"
+  - delay: 70781
+    content: e
+  - delay: 318
+    content: x
+  - delay: 265
+    content: t
+  - delay: 769
+    content: "\b \b"
+  - delay: 624
+    content: i
+  - delay: 272
+    content: t
+  - delay: 336
+    content: "\r\nBye\r"
+  - delay: 27
+    content: |+
+
+  - delay: 269
+    content: 'PS C:\xampp\mysql\bin> '
+  - delay: 2554
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[91m\e[30;22H> \e[m.\e[?25h"
+  - delay: 8904
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[30;22H>  \b\e[?25h"
+  - delay: 1516
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[91m\e[30;22H> \e[m.\e[?25h"
+  - delay: 19120
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[30;22H> \e[93m.\\\e[?25h"
+  - delay: 858
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[30;24H.\\m\e[?25h"
+  - delay: 305
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[30;24H.\\my\e[?25h"
+  - delay: 1009
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[30;24H.\\mys\e[?25h"
+  - delay: 290
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;24H.\\mysq\e[?25h"
+  - delay: 304
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;24H.\\mysql\e[?25h"
+  - delay: 257
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[?25h"
+  - delay: 554
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-\e[?25h"
+  - delay: 759
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[?25h"
+  - delay: 586
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m \e[?25h"
+  - delay: 527
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m r\e[?25h"
+  - delay: 360
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m ro\e[?25h"
+  - delay: 178
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m roo\e[?25h"
+  - delay: 265
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m root\e[?25h"
+  - delay: 287
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m root \e[?25h"
+  - delay: 402
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m root \e[90m-\e[?25h"
+  - delay: 267
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[30;24H.\\mysql\e[m \e[90m-u\e[m root \e[90m-p\e[?25h"
+  - delay: 1292
+    content: "\e[25l\e[m\e[HDatabase changed\e[K\r\nMariaDB [sauna]> SHOW DATABASE sauna;\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\non for the right syntax to use near 'DATABASE sauna' at line 1\e[K\r\nMariaDB [sauna]> SHOW CREATE DATABASE sauna;\e[K\r\n+----------+----------------------------------------------------------------------------------------------+\e[K\r\n| Database | Create Database                                                                              |\e[K\r\n+----------+----------------------------------------------------------------------------------------------+\e[K\r\n| sauna    | CREATE DATABASE `sauna` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ |\e[K\r\n+----------+----------------------------------------------------------------------------------------------+\e[K\r\n1 row in set (0.001 sec)\e[K\r\n\e[K\r\nMariaDB [sauna]> SHOW TABLE sauna;\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\non for the right syntax to use near 'sauna' at line 1\e[K\r\nMariaDB [sauna]> SELECT * FROM pengunjung;\e[K\r\nERROR 1146 (42S02): Table 'sauna.pengunjung' doesn't exist\e[K\r\nMariaDB [sauna]> SHOW TABLES;\e[K\r\n+-----------------+\e[K\r\n| Tables_in_sauna |\e[K\r\n+-----------------+\e[K\r\n| jenis_sauna     |\e[K\r\n| pelanggan       |\e[K\r\n+-----------------+\e[K\r\n2 rows in set (0.002 sec)\e[K\r\n\e[K\r\nMariaDB [sauna]> exit\e[K\r\nBye\e[K\r\nPS C:\\xampp\\mysql\\bin> \e[93m.\\mysql\e[m \e[90m-u\e[m root \e[90m-p\e[m\e[K\r\n\e[K\e[41C\e[?25h"
+  - delay: 22
+    content: "\r"
+  - delay: 152
+    content: E
+  - delay: 23
+    content: 'nter password: '
+  - delay: 1593
+    content: "\r\n"
+  - delay: 43
+    content: "Welcome to the MariaDB monitor.  Commands end with ; or \\g.\r\nYour MariaDB connection id is 86\r\nServer version: 10.4.32-MariaDB mariadb.org binary distribution\r\n\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n"
+  - delay: 9
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 2562
+    content: U
+  - delay: 212
+    content: S
+  - delay: 247
+    content: E
+  - delay: 532
+    content: ' '
+  - delay: 26278
+    content: z
+  - delay: 384
+    content: o
+  - delay: 186
+    content: o
+  - delay: 242
+    content: p
+  - delay: 171
+    content: a
+  - delay: 549
+    content: r
+  - delay: 534
+    content: k
+  - delay: 1056
+    content: ;
+  - delay: 274
+    content: "\r\nDatabase changed\r"
+  - delay: 12
+    content: "\nMariaDB [zoopark]>\e[1C"
+  - delay: 11247
+    content: S
+  - delay: 336
+    content: H
+  - delay: 223
+    content: O
+  - delay: 203
+    content: W
+  - delay: 222
+    content: ' '
+  - delay: 589
+    content: T
+  - delay: 176
+    content: A
+  - delay: 126
+    content: B
+  - delay: 256
+    content: L
+  - delay: 151
+    content: E
+  - delay: 227
+    content: S
+  - delay: 950
+    content: ;
+  - delay: 251
+    content: "\r\n+-------------------+\r\n| Tables_in_zoopark |\r\n+-------------------+\r\n| pengunjung        |\r\n| tiket             |\r\n| transaksi         |\r\n+-------------------+\r\n3 rows in set (0.001 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [zoopark]>\e[1C"
+  - delay: 13709
+    content: S
+  - delay: 374
+    content: E
+  - delay: 654
+    content: L
+  - delay: 237
+    content: E
+  - delay: 176
+    content: C
+  - delay: 744
+    content: E
+  - delay: 200
+    content: T
+  - delay: 648
+    content: "\b \b"
+  - delay: 190
+    content: "\b \b"
+  - delay: 1090
+    content: T
+  - delay: 633
+    content: ' '
+  - delay: 1020
+    content: '*'
+  - delay: 535
+    content: ' '
+  - delay: 552
+    content: F
+  - delay: 223
+    content: R
+  - delay: 312
+    content: O
+  - delay: 252
+    content: M
+  - delay: 345
+    content: ' '
+  - delay: 880
+    content: p
+  - delay: 164
+    content: e
+  - delay: 206
+    content: 'n'
+  - delay: 231
+    content: g
+  - delay: 237
+    content: u
+  - delay: 247
+    content: 'n'
+  - delay: 206
+    content: j
+  - delay: 179
+    content: u
+  - delay: 237
+    content: 'n'
+  - delay: 227
+    content: g
+  - delay: 759
+    content: ;
+  - delay: 265
+    content: "\r\nEmpty set (0.002 sec)\r\n"
+  - delay: 6
+    content: "\nMariaDB [zoopark]>\e[1C"
+  - delay: 26520
+    content: I
+  - delay: 257
+    content: 'N'
+  - delay: 186
+    content: S
+  - delay: 985
+    content: E
+  - delay: 242
+    content: R
+  - delay: 252
+    content: T
+  - delay: 287
+    content: ' '
+  - delay: 303
+    content: I
+  - delay: 779
+    content: 'N'
+  - delay: 160
+    content: T
+  - delay: 169
+    content: O
+  - delay: 473
+    content: ' '
+  - delay: 7083
+    content: p
+  - delay: 202
+    content: e
+  - delay: 197
+    content: 'n'
+  - delay: 238
+    content: g
+  - delay: 206
+    content: u
+  - delay: 248
+    content: 'n'
+  - delay: 217
+    content: j
+  - delay: 195
+    content: u
+  - delay: 223
+    content: 'n'
+  - delay: 231
+    content: g
+  - delay: 1104
+    content: (
+  - delay: 1261
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 24710
+    content: ;
+  - delay: 375
+    content: "\r\n"
+  - delay: 34
+    content: "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\b\r\non for the right syntax to use near '' at line 1\r"
+  - delay: 23
+    content: "\nMariaDB [zoopark]>\e[1C"
+  - delay: 10757
+    content: I
+  - delay: 258
+    content: 'N'
+  - delay: 152
+    content: S
+  - delay: 271
+    content: E
+  - delay: 240
+    content: R
+  - delay: 1189
+    content: T
+  - delay: 263
+    content: ' '
+  - delay: 257
+    content: I
+  - delay: 243
+    content: 'N'
+  - delay: 189
+    content: T
+  - delay: 217
+    content: O
+  - delay: 369
+    content: ' '
+  - delay: 978
+    content: p
+  - delay: 162
+    content: e
+  - delay: 190
+    content: 'n'
+  - delay: 237
+    content: g
+  - delay: 216
+    content: u
+  - delay: 242
+    content: 'n'
+  - delay: 217
+    content: j
+  - delay: 125
+    content: u
+  - delay: 223
+    content: 'n'
+  - delay: 223
+    content: g
+  - delay: 5136
+    content: ' '
+  - delay: 961
+    content: (
+  - delay: 458
+    content: i
+  - delay: 201
+    content: d
+  - delay: 761
+    content: _
+  - delay: 428
+    content: p
+  - delay: 226
+    content: e
+  - delay: 170
+    content: 'n'
+  - delay: 225
+    content: g
+  - delay: 208
+    content: u
+  - delay: 248
+    content: 'n'
+  - delay: 208
+    content: j
+  - delay: 176
+    content: u
+  - delay: 216
+    content: 'n'
+  - delay: 238
+    content: g
+  - delay: 900
+    content: ','
+  - delay: 889
+    content: ' '
+  - delay: 687
+    content: 'n'
+  - delay: 138
+    content: a
+  - delay: 126
+    content: m
+  - delay: 131
+    content: a
+  - delay: 1251
+    content: _
+  - delay: 1017
+    content: p
+  - delay: 156
+    content: e
+  - delay: 192
+    content: 'n'
+  - delay: 226
+    content: g
+  - delay: 215
+    content: u
+  - delay: 247
+    content: 'n'
+  - delay: 211
+    content: j
+  - delay: 180
+    content: u
+  - delay: 227
+    content: 'n'
+  - delay: 237
+    content: g
+  - delay: 1091
+    content: ','
+  - delay: 303
+    content: ' '
+  - delay: 1702
+    content: 'n'
+  - delay: 324
+    content: i
+  - delay: 699
+    content: "\b \b"
+  - delay: 408
+    content: o
+  - delay: 1003
+    content: _
+  - delay: 755
+    content: t
+  - delay: 176
+    content: e
+  - delay: 197
+    content: l
+  - delay: 207
+    content: p
+  - delay: 1564
+    content: )
+  - delay: 7020
+    content: ' '
+  - delay: 1011
+    content: V
+  - delay: 148
+    content: A
+  - delay: 215
+    content: L
+  - delay: 246
+    content: U
+  - delay: 221
+    content: E
+  - delay: 205
+    content: S
+  - delay: 500
+    content: ' '
+  - delay: 1015
+    content: (
+  - delay: 864
+    content: '1'
+  - delay: 1642
+    content: "\b \b"
+  - delay: 1283
+    content: ''''
+  - delay: 1342
+    content: '1'
+  - delay: 1463
+    content: ''''
+  - delay: 1206
+    content: ','
+  - delay: 1282
+    content: ' '
+  - delay: 1790
+    content: A
+  - delay: 1107
+    content: d
+  - delay: 260
+    content: o
+  - delay: 640
+    content: "\b \b"
+  - delay: 508
+    content: i
+  - delay: 217
+    content: 'n'
+  - delay: 262
+    content: d
+  - delay: 182
+    content: a
+  - delay: 212
+    content: ' '
+  - delay: 286
+    content: k
+  - delay: 237
+    content: h
+  - delay: 232
+    content: o
+  - delay: 151
+    content: d
+  - delay: 176
+    content: i
+  - delay: 201
+    content: j
+  - delay: 152
+    content: a
+  - delay: 152
+    content: h
+  - delay: 1236
+    content: "\b \b"
+  - delay: 495
+    content: "\b \b"
+  - delay: 106
+    content: "\e[25l\e[30;109H  \e[30;109H\e[?25h"
+  - delay: 49
+    content: "\b \b\b \b"
+  - delay: 13
+    content: "\e[25l\e[30;105H  \e[30;105H\e[?25h"
+  - delay: 132
+    content: "\b \b"
+  - delay: 187
+    content: "\b \b"
+  - delay: 189
+    content: "\b \b"
+  - delay: 165
+    content: "\b \b"
+  - delay: 184
+    content: "\b \b"
+  - delay: 181
+    content: "\b \b"
+  - delay: 216
+    content: "\b \b"
+  - delay: 690
+    content: ''''
+  - delay: 666
+    content: A
+  - delay: 497
+    content: d
+  - delay: 203
+    content: i
+  - delay: 220
+    content: 'n'
+  - delay: 282
+    content: d
+  - delay: 162
+    content: a
+  - delay: 194
+    content: ' '
+  - delay: 793
+    content: K
+  - delay: 250
+    content: h
+  - delay: 212
+    content: o
+  - delay: 163
+    content: d
+  - delay: 166
+    content: i
+  - delay: 206
+    content: j
+  - delay: 135
+    content: a
+  - delay: 126
+    content: h
+  - delay: 1118
+    content: ''''
+  - delay: 1849
+    content: ','
+  - delay: 1383
+    content: ' '
+  - delay: 472
+    content: ''''
+  - delay: 696
+    content: '0'
+  - delay: 433
+    content: '8'
+  - delay: 447
+    content: "1\r\n"
+  - delay: 288
+    content: '5'
+  - delay: 272
+    content: '2'
+  - delay: 256
+    content: '3'
+  - delay: 367
+    content: '9'
+  - delay: 287
+    content: '3'
+  - delay: 348
+    content: '1'
+  - delay: 379
+    content: '8'
+  - delay: 387
+    content: '4'
+  - delay: 227
+    content: '3'
+  - delay: 2218
+    content: ''''
+  - delay: 2386
+    content: )
+  - delay: 6224
+    content: ;
+  - delay: 1054
+    content: "\r\n"
+  - delay: 6
+    content: "Query OK, 1 row affected (0.006 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [zoopark]>\e[1C"
+  - delay: 7139
+    content: S
+  - delay: 209
+    content: E
+  - delay: 356
+    content: L
+  - delay: 244
+    content: E
+  - delay: 197
+    content: C
+  - delay: 265
+    content: T
+  - delay: 659
+    content: ' '
+  - delay: 1245
+    content: '*'
+  - delay: 730
+    content: ' '
+  - delay: 310
+    content: F
+  - delay: 161
+    content: R
+  - delay: 192
+    content: O
+  - delay: 271
+    content: M
+  - delay: 267
+    content: ' '
+  - delay: 487
+    content: p
+  - delay: 227
+    content: e
+  - delay: 167
+    content: 'n'
+  - delay: 235
+    content: g
+  - delay: 201
+    content: u
+  - delay: 243
+    content: 'n'
+  - delay: 217
+    content: j
+  - delay: 162
+    content: u
+  - delay: 217
+    content: 'n'
+  - delay: 219
+    content: g
+  - delay: 1404
+    content: ;
+  - delay: 240
+    content: "\r\n+---------------+-----------------+--------------+\r\n| id_pengunjung | nama_pengunjung | no_telp      |\r\n+---------------+-----------------+--------------+\r\n|             1 | Adinda Khodijah | 081523931843 |\r\n+---------------+-----------------+--------------+\r\n1 row in set (0.001 sec)\r\n"
+  - delay: 8
+    content: "\nMariaDB [zoopark]>\e[1C"
+  - delay: 14003
+    content: e
+  - delay: 388
+    content: x
+  - delay: 598
+    content: i
+  - delay: 268
+    content: t
+  - delay: 874
+    content: "\r\nBye\r"
+  - delay: 16
+    content: |+
+
+  - delay: 16
+    content: 'PS C:\xampp\mysql\bin> '
+  - delay: 1205
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93me\e[?25h"
+  - delay: 269
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bex\e[?25h"
+  - delay: 679
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[30;24Hexi\e[?25h"
+  - delay: 242
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[92m\e[30;24Hexit\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[m\e[H+-------------------+\e[K\r\n| pengunjung        |\e[K\r\n| tiket             |\e[K\r\n| transaksi         |\e[K\r\n+-------------------+\e[K\r\n3 rows in set (0.001 sec)\e[K\r\n\e[K\r\nMariaDB [zoopark]> SELECT * FROM pengunjung;\e[K\r\nEmpty set (0.002 sec)\e[K\r\n\e[K\r\nMariaDB [zoopark]> INSERT INTO pengunjung(\e[K\r\n    -> ;\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server versi\r\non for the right syntax to use near '' at line 1\e[K\r\nMariaDB [zoopark]> INSERT INTO pengunjung (id_pengunjung, nama_pengunjung, no_telp) VALUES ('1', 'Adinda Khodijah', '081\r\n523931843');\e[K\r\nQuery OK, 1 row affected (0.006 sec)\e[K\r\n\e[K\r\nMariaDB [zoopark]> SELECT * FROM pengunjung;\e[K\r\n+---------------+-----------------+--------------+\e[K\r\n| id_pengunjung | nama_pengunjung | no_telp      |\e[K\r\n+---------------+-----------------+--------------+\e[K\r\n|             1 | Adinda Khodijah | 081523931843 |\e[K\r\n+---------------+-----------------+--------------+\e[K\r\n1 row in set (0.001 sec)\e[K\r\n\e[K\r\nMariaDB [zoopark]> exit\e[K\r\nBye\e[K\r\nPS C:\\xampp\\mysql\\bin> \e[92mexit\e[m\e[K\r\n\e[K\e[27C\e[?25h"
+  - delay: 11
+    content: "\r"
